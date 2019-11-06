@@ -3,7 +3,7 @@
 If you would like an Heroku account to deploy and use this web application,
 go to this [link (https://heroku.com)](https://heroku.com) and you can Sign up for free, and use it for free.
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tigerfarm/owlsms)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tigerfarm/tigsms)
 
 When you deploy to Heroku, you will be prompted for an app name. 
 The name needs to be unique. Example, use your name+hero (example: davidhero). 
@@ -20,7 +20,7 @@ To redeploy,
 To keep the same URL, remove the old app by using the Heroku dashboard:
     https://dashboard.heroku.com,
     Select the app, click Settings, go to the bottom, click Delete app.
-Then, from, https://github.com/tigerfarm/owlsms, click Deploy to Heroku button.
+Then, from, https://github.com/tigerfarm/tigsms, click Deploy to Heroku button.
 Note, you will need to re-enter the above Config Vars.
 ````
 SMS Application web browser screen print:
@@ -37,8 +37,8 @@ SMS Application web browser screen print:
 ## Files
 
 - [index.html](index.html) : client HTML
-- [owlsms.css](owlsms.css) : client styles, CSS
-- [owlsms.js](owlsms.js) : client JavaScript
+- [sms.css](sms.css) : client styles, CSS
+- [sms.js](sms.js) : client JavaScript
 - [accountNumberList.php](accountNumberList.php) : Returns the Twilio account phone numbers and Messaging Services in a string.
 - [accountPhoneNumbers.php](accountPhoneNumbers.php) : List the Twilio account phone numbers and Messaging Services using the environment's account SID.
 - [sendSms.php](sendSms.php) : a program sends an SMS message.
