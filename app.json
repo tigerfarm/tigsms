@@ -1,7 +1,18 @@
 {
-  "name": "SMS Application",
-  "description": "A web application to send SMS messages, and read logs, using Twilio Programmable Messaging.",
-  "repository": "https://github.com/tigerfarm/tigsms",
-  "logo": "http://tigerfarmpress.com/images/topImgLeft.jpg",
-  "keywords": ["php", "Twilio", "SMS"]
+    "name": "SMS Application",
+    "description": "A web application to send SMS messages, and read logs, using Twilio Programmable Messaging.",
+    "repository": "https://github.com/tigerfarm/tigsms",
+    "logo": "http://tigerfarmpress.com/images/topImgLeft.jpg",
+    "keywords": ["php", "Twilio", "SMS"],
+    "env": {
+        "ACCOUNT_SID": {
+            "description": "Your Twilio accountSid. You view it here: https://console.twilio.com"
+        },
+        "AUTH_TOKEN": {
+            "description": "Your Twilio accountSid. You view it here: https://console.twilio.com"
+        },
+        "TOKEN_PASSWORD": {
+            "description": "Password that you set, to allow use of this application."
+        }
+    }
 }
