@@ -25,7 +25,7 @@ Note, you will need to re-enter the above Config Vars.
 ````
 SMS Application web browser screen print:
 
-<img src="Tiger_Messaging.jpg"/>
+<img src="tigsms.jpg"/>
 
 ### Requirements:
 
