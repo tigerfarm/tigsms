@@ -159,7 +159,7 @@
                 "shasum": ""
             },
             "require": {
-                "latte/latte": "~2.2"
+                "latte/latte": ">=2.10.6,<2.10.7",
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -196,7 +196,7 @@
                 "shasum": ""
             },
             "require": {
-                "latte/latte": "~2.2"
+                "latte/latte": ">=2.10.6,<2.10.7",
             },
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
@@ -540,7 +540,7 @@
                 "nette/utils": "~2.3@dev"
             },
             "require-dev": {
-                "latte/latte": "~2.3@dev",
+                "latte/latte": ">=2.10.6,<2.10.7",
                 "nette/application": "~2.3@dev",
                 "nette/bootstrap": "~2.3@dev",
                 "nette/caching": "~2.3@dev",
@@ -776,7 +776,7 @@
                 "nette/nette": "<2.2"
             },
             "require-dev": {
-                "latte/latte": "~2.3.9",
+                "latte/latte": ">=2.10.6,<2.10.7",
                 "nette/di": "~2.3",
                 "nette/forms": "~2.2",
                 "nette/robot-loader": "~2.2",
@@ -835,7 +835,7 @@
                 "nette/nette": "<2.2"
             },
             "require-dev": {
-                "latte/latte": "~2.2",
+                "latte/latte": ">=2.10.6,<2.10.7",
                 "nette/application": "~2.3",
                 "nette/caching": "~2.3",
                 "nette/database": "~2.3",
@@ -901,7 +901,7 @@
                 "nette/nette": "<2.2"
             },
             "require-dev": {
-                "latte/latte": "~2.3.0",
+                "latte/latte": ">=2.10.6,<2.10.7",
                 "nette/di": "~2.3",
                 "nette/tester": "~1.6"
             },
